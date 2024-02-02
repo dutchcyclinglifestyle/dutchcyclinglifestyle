@@ -125,6 +125,8 @@ Run the `install.sh` script to install the ComfyUI framework in this folder. Thi
 - [x] Launch Dutch cycling lifestyle tool (November 2023)
 - [x] One million generated images (January 2024)
 - [ ] Open source the tool (February 2024)
+- [ ] Cease operation of the tool due to insufficient funding (June 2024)
+- [ ] Hackathon at [Urban Future Rotterdam](https://urban-future.org/event/uf24-rotterdam-launch/uf24/) (June 2024)
 
 ## Contributing
 
