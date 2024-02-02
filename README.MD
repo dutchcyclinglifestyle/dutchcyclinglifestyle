@@ -109,6 +109,16 @@ This is the command to install pytorch nightly instead which might have performa
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121
 ```
 
+#### Troubleshooting
+
+If you get the "Torch not compiled with CUDA enabled" error, uninstall torch with:
+
+```bash
+pip uninstall torch
+```
+
+And install it again with the command above.
+
 ### Installation
 
 Run the `install.sh` script to install the ComfyUI framework in this folder. This script will also install the necessary (recommended) models and nodes for the tool to work with our workflow.
@@ -118,6 +128,28 @@ Run the `install.sh` script to install the ComfyUI framework in this folder. Thi
 ```
 
 ## Usage
+
+Use the `run.sh` script to start the server. You can also run the server by running `python main.py` from the ComfyUI directory.
+
+```bash
+./run.sh
+```
+
+Then drag and drop the [original workflow](./workflows/original_workflow.json) json file into the ComfyUI manager UI or use the `Load workflow` button on the right side of the UI.
+
+Add your image to the `Load Image` node and run the workflow. To infer using API, read the [example code](https://github.com/comfyanonymous/ComfyUI/blob/master/script_examples/basic_api_example.py) of ComfyUI for further explanation.
+
+Please note that the first run of the workflow will take a while to download the required Segment Anything models. After the download is complete, you can start using the tool at full speed.
+
+### Workflow
+
+<figure>
+  <img src="./workflows/original_workflow.png" alt="original ComfyUI workflow">
+</figure>
+
+<small>
+  You can also save the workflow image and drag and drop it into the ComfyUI manager UI to load the workflow.
+</small>
 
 ## Roadmap
 
