@@ -59,23 +59,9 @@ The Dutch cycling lifestyle tool is a project by the Netherlands Board of Touris
 
 The tool transforms existing streets into a vision of a future street that's more suitable for cycling. See the example below:
 
-<!-- table with before and after images -->
-<table>
-  <tr>
-    <td>
-      <figure>
-        <img src="assets/img/street_before.png" alt="Before" width="200">
-        <figcaption>Before</figcaption>
-      </figure>
-    </td>
-    <td>
-      <figure>
-        <img src="assets/img/street_after.png" alt="After" width="200">
-        <figcaption>After</figcaption>
-      </figure>
-    </td>
-  </tr>
-</table>
+|              Before               |              After               |
+| :-------------------------------: | :------------------------------: |
+| ![](assets/img/street_before.png) | ![](assets/img/street_after.png) |
 
 ### Built with
 
@@ -83,10 +69,9 @@ The Dutch cycling lifestyle tool relies mainly on the technology called [Stable 
 
 This model also allows us to "inpaint" in a certain area of an existing picture. To determine this area we use a segmentation model that detects the road and vehicles in the original images.
 
-<figure>
-  <img src="assets/img/street_segment.png" alt="Segmentation" width="200">
-  <figcaption>Segmentation of unwanted objects</figcaption>
-</figure>
+|  Segmentation of unwanted objects  |
+| :--------------------------------: |
+| ![](assets/img/street_segment.png) |
 
 All of this is built in a framework especially for the mentioned technology, called [ComfyUI](<[http://](https://github.com/comfyanonymous/ComfyUI)>), which is a visual node-based interface for AI image processing. This framework allows us to easily modify the workflow and add new features.
 
