@@ -35,8 +35,9 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#python-notebook">Python Notebook</a></li>
+        <li><a href="#prerequisites-for-local-installation">Prerequisites for local installation</a></li>
+        <li><a href="#local-installation">Local installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -78,8 +79,13 @@ All of this is built in a framework especially for the mentioned technology, cal
 <!-- GETTING STARTED -->
 
 ## Getting Started
+### Python Notebook
 
-### Prerequisites
+When you don't have the necessary GPUs in your machine, you can run the python notebook in Google Colab and follow the usage guide from the [workflow](#workflow) section.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dutchcyclinglifestyle/dutchcyclinglifestyle/blob/main/dutchcyclinglifestyle.ipynb)
+
+### Prerequisites for local installation
 
 #### AMD GPUs (Linux only)
 
@@ -119,7 +125,7 @@ pip uninstall torch
 
 And install it again with the command above.
 
-### Installation
+### Local installation
 
 Run the `install.sh` script to install the ComfyUI framework in this folder. This script will also install the necessary (recommended) models and nodes for the tool to work with our workflow.
 
