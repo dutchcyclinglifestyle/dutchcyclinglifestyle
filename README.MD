@@ -162,7 +162,7 @@ Please note that the first run of the workflow will take a while to download the
 - [x] Start of development (June 2023)
 - [x] Launch Dutch cycling lifestyle tool (October 2023)
 - [x] One million generated images (January 2024)
-- [ ] Open source the tool (February 2024)
+- [x] Open source the tool (February 2024)
 - [ ] Cease operation of the tool due to insufficient funding (June 2024)
 - [ ] Hackathon at [Urban Future Rotterdam](https://urban-future.org/event/uf24-rotterdam-launch/uf24/) (June 2024)
 
