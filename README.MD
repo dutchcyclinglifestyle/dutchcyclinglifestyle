@@ -5,7 +5,7 @@
     <img src="assets/img/bike.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Dutch Cycling Lifestyle (NBTC)</h3>
+  <h3 align="center">Dutch Cycling Lifestyle</h3>
 
   <p align="center">
     Develop a happier and healthier street with our cycling lifestyle.
@@ -56,7 +56,7 @@
 
 ### Background
 
-The Dutch cycling lifestyle (NBTC) tool is a project by the Netherlands Board of Tourism & Conventions. The tool is designed to generate images of a happier and healthier street with our cycling lifestyle. The tool is built using a combination of AI and urban planning to create a vision of a future street that's more suitable for cycling.
+The Dutch cycling lifestyle tool is a project by the Netherlands Board of Tourism & Conventions. The tool is designed to generate images of a happier and healthier street with our cycling lifestyle. The tool is built using a combination of AI and urban planning to create a vision of a future street that's more suitable for cycling.
 
 The tool transforms existing streets into a vision of a future street that's more suitable for cycling. See the example below:
 
@@ -184,7 +184,7 @@ Distributed under the MIT License. See LICENSE.txt for more information.
   style="display: flex;flex-direction: column;align-items: center;font-size: 12px;text-align:center">
   <img src="assets/img/nbtc_logo_full.svg" alt="Logo" width="104" height="31" style="margin-bottom:12px">
   <p>
-  The Netherlands Board of Tourism & Conventions
+  The Netherlands Board of Tourism & Conventions (NBTC)
   <br>
   <a href="mailto:cyclinglifestyle@holland.com">cyclinglifestyle@holland.com</a>
   </p>
