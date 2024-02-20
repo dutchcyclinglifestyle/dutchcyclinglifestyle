@@ -127,9 +127,13 @@ And install it again with the command above.
 
 ### Local installation
 
-Run the `install.sh` script to install the ComfyUI framework in this folder. This script will also install the necessary (recommended) models and nodes for the tool to work with our workflow.
+Clone this repository and run the `install.sh` script to install the ComfyUI framework in this folder. This script will also install the necessary (recommended) models and nodes for the tool to work with our workflow.
 
 ```bash
+git clone https://github.com/dutchcyclinglifestyle/dutchcyclinglifestyle.git
+
+cd dutchcyclinglifestyle
+
 ./install.sh
 ```
 
