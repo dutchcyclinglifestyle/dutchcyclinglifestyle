@@ -194,7 +194,7 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 ## Credits
 
-This project is developed by [Handpicked Lab](https://www.handpickedagencies.com/lab) (creative technology & backend), [IN10](https://www.in10.nl/) (frontend), [HumanKind](https://www.humankind.city/) (concept & urban planning) and the Netherlands Board of Tourism & Conventions.
+This project is developed by [Handpicked Lab](https://www.handpickedagencies.com/lab) (creative technology & backend), [IN10](https://www.in10.nl/) (frontend), [HumanKind](https://www.humankind.city/) (concept & urban planning) and the Netherlands Board of Tourism & Conventions (NBTC).
 
 Special thanks to the following people for their contributions:
 
