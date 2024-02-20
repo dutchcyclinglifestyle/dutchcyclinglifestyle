@@ -5,7 +5,7 @@
     <img src="assets/img/bike.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Dutch Cycling Lifestyle</h3>
+  <h3 align="center">Dutch Cycling Lifestyle (NBTC)</h3>
 
   <p align="center">
     Develop a happier and healthier street with our cycling lifestyle.
@@ -56,7 +56,7 @@
 
 ### Background
 
-The Dutch cycling lifestyle tool is a project by the Netherlands Board of Tourism & Conventions. The tool is designed to generate images of a happier and healthier street with our cycling lifestyle. The tool is built using a combination of AI and urban planning to create a vision of a future street that's more suitable for cycling.
+The Dutch cycling lifestyle (NBTC) tool is a project by the Netherlands Board of Tourism & Conventions. The tool is designed to generate images of a happier and healthier street with our cycling lifestyle. The tool is built using a combination of AI and urban planning to create a vision of a future street that's more suitable for cycling.
 
 The tool transforms existing streets into a vision of a future street that's more suitable for cycling. See the example below:
 
@@ -66,7 +66,7 @@ The tool transforms existing streets into a vision of a future street that's mor
 
 ### Built with
 
-The Dutch cycling lifestyle tool relies mainly on the technology called [Stable Diffusion](https://github.com/CompVis/stable-diffusion). This technology allows us to generate images using text prompts on a model that's trained on a lot of images.
+The tool relies mainly on the technology called [Stable Diffusion](https://github.com/CompVis/stable-diffusion). This technology allows us to generate images using text prompts on a model that's trained on a lot of images.
 
 This model also allows us to "inpaint" in a certain area of an existing picture. To determine this area we use a segmentation model that detects the road and vehicles in the original images.
 
@@ -160,7 +160,7 @@ Please note that the first run of the workflow will take a while to download the
 ## Roadmap
 
 - [x] Start of development (June 2023)
-- [x] Launch Dutch cycling lifestyle tool (November 2023)
+- [x] Launch Dutch cycling lifestyle tool (October 2023)
 - [x] One million generated images (January 2024)
 - [ ] Open source the tool (February 2024)
 - [ ] Cease operation of the tool due to insufficient funding (June 2024)
@@ -186,7 +186,7 @@ Distributed under the MIT License. See LICENSE.txt for more information.
   <p>
   The Netherlands Board of Tourism & Conventions
   <br>
-  <a href="mailto:nbtc@holland.com">nbtc@holland.com</a>
+  <a href="mailto:cyclinglifestyle@holland.com">cyclinglifestyle@holland.com</a>
   </p>
 </div>
 
